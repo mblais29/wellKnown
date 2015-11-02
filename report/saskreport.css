@@ -1,0 +1,182 @@
+html {	
+background-color: #D7D7D7;
+}
+
+#wrapper {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(5%);	
+}
+
+#title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main {
+	height: auto;
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 25px;
+	position: relative;
+}
+
+#info {
+	width: 100%;
+	z-index: 3;
+	position: relative;
+}
+
+#map{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 4;
+}
+
+#reportInfo{
+	width: 100%;
+	z-index: 3;
+}
+
+/* Makes the layers on top of the map*/
+
+.leaflet-container img { max-width:none!important; }
+
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
+
+/******************************
+ Geojson Text Styles 
+ *****************************/
+.name {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lic {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lic_date {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.well_type {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.type {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.status{
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.du_size {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.loc {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.hrzn {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.depth {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.case_depth {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.case_size {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.pool {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.eor{
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.unit {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.owner {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.fdd {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.off_con_dt {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lat {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lon {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+

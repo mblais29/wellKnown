@@ -1,0 +1,188 @@
+.leaflet-control-geosearch {
+	display:none !important;
+}
+
+#printpagebutton {
+	margin-bottom: 10px;
+}
+
+#wrapper {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(5%);	
+}
+
+#title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main {
+	height: auto;
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 25px;
+	position: relative;
+}
+
+#info {
+	width: 100%;
+	z-index: 3;
+}
+
+#map{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	left: 0;
+}
+
+#reportInfo {
+	font-size: 10px;
+	width: 49%;
+	z-index: 4;
+	display: inline-block;
+}
+
+#reportInfo2{
+	font-size: 10px;
+	width: 49%;
+	z-index: 4;
+	display: inline-block;
+}
+/* Makes the layers on top of the map*/
+
+
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
+
+/******************************
+ Geojson Text Styles 
+ *****************************/
+.name {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lic {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lic_date {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.well_type {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.type {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.status {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.du_size {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.loc {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.hrzn {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.depth {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.case_depth {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.case_size {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.pool {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.eor {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.unit {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.owner {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.fdd {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.off_con_dt {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lat {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lon {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+

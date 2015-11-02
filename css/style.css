@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html{
+	background: url('img/trees.jpg')no-repeat;
+	background-size: 100%;
+}
+
+#radio, h3 {
+	text-align: center;
+}
+
+#loginPage{
+	text-align: center;
+}
+
+label{
+	padding: 10px;
+}
+
+h3{
+	padding-bottom: 5px;
+}
+
+#radio2{
+	margin-bottom: 10px;
+}
+
+#password, #username{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

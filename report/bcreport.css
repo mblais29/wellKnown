@@ -1,0 +1,182 @@
+html {	
+background-color: #D7D7D7;
+}
+
+#wrapper {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(5%);	
+}
+
+#title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main {
+	height: auto;
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 25px;
+	position: relative;
+}
+
+#info {
+	width: 100%;
+	z-index: 3;
+	position: relative;
+}
+
+#map{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 4;
+}
+
+#reportInfo{
+	width: 100%;
+	z-index: 3;
+}
+
+/* Makes the layers on top of the map*/
+
+.leaflet-container img { max-width:none!important; }
+
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
+
+/******************************
+ Geojson Text Styles 
+ *****************************/
+.wa {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.drill {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.uwi {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lat {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.lon {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.file {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.oper {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.oper2 {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.area {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.surfLoc {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.bottLoc {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.wellName {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.mode {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.fluid {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.operational {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.status {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.dir {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.conf {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.spud {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+.rigRlsDat {
+	background-color: #E1E1E1;
+	padding: 5px;
+	width: 35%;
+}
+
+

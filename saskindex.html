@@ -1,0 +1,72 @@
+<!doctype html>
+
+	<head>
+	  <meta charset="utf-8">
+	
+	  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	       More info: h5bp.com/b/378 -->
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	  <title>Oil and Gas App</title>
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+	  <meta name="viewport" content="width=device-width,initial-scale=1">	  
+	  <link rel="stylesheet" href="css/saskstyle.css">
+	  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	  <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+	  <script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.3/esri-leaflet.js"></script>
+	  <script src="js/leaflet/leaflet-google.js"></script>
+	  <link rel="stylesheet" href="js/libs/jquery-ui-1.11.2/jquery-ui.min.css">
+	  <script src="js/libs/jquery-1.6.2.min.js"></script>
+	  <script src="js/libs/jquery-ui-1.11.2/jquery-ui.min.js"></script>
+	  <link rel="stylesheet" href="css/l.geosearch.css" />
+	  <script src="js/leaflet/src/l.control.geosearch.js"></script>
+	  <script src="js/leaflet/src/l.geosearch.provider.esri.js"></script>
+	  <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="js/leaflet/dist/leaflet-search.min.css" />
+	  <link rel="stylesheet" href="js/leaflet/dist/leaflet.awesome-markers.css">
+	  <script src="js/leaflet/dist/leaflet.awesome-markers.min.js"></script>
+	  <link rel="stylesheet" href="js/leaflet/src/leaflet.groupedlayercontrol.css">
+	  <script src="js/leaflet/src/leaflet.groupedlayercontrol.js"></script>
+	  <link rel="stylesheet" href="js/leaflet/dist/MarkerCluster.css" />
+	  <link rel="stylesheet" href="js/leaflet/dist/MarkerCluster.Default.css" />
+	  <script src="js/leaflet/dist/leaflet.markercluster-src.js"></script>
+	  <link rel="stylesheet" href="js/leaflet/dist/leaflet.label.css" />
+	  <script src="js/leaflet/src/Label.js"></script>
+	  <script src="js/leaflet/src/BaseMarkerMethods.js"></script>
+	  <script src="js/leaflet/src/Marker.Label.js"></script>
+	  <script src="js/leaflet/src/CircleMarker.Label.js"></script>
+	  <script src="js/leaflet/src/Path.Label.js"></script>
+	  <script src="js/leaflet/src/Map.Label.js"></script>
+	  <script src="js/leaflet/src/FeatureGroup.Label.js"></script>
+	  
+	  
+	</head>
+	
+	<body>
+		
+		<div id="map">
+			<div id="button-wrapper">
+	            <input type="button" id="Btn1" value="Search By Section" onclick="" class="btnStyle span3" />  
+	        </div>
+	        <div id="dialog" title="Search By Section">
+	        	<div id="searchSection">
+	        		<label for="mer">MER </label><input type="text" id="mer"size="1" maxlength="1" onKeyUp="numericFilter(this);" >
+		        	<label for="twp">TWP </label><input type="text" id="twp"size="3" maxlength="3" onKeyUp="numericFilter(this);" >
+	    			<label for="rge">RGE </label><input type="text" id ="rge" size="2" maxlength="2" onKeyUp="numericFilter(this);">
+	    			<label for="sec">SEC </label><input type="text" id="sec" size="2" maxlength="2" onKeyUp="numericFilter(this);"><br/>
+	    			<p>ex: MER:3 TWP:28 RGE:23 SEC:03 (only add leading zeros for the 'Section')</p>
+	    			<input type="submit" value="Submit" id="submit" onclick="onSubmit()">
+	    		</div>
+    			
+			</div>
+		</div>
+		
+		
+		<script src="js/leaflet/dist/leaflet-search.min.js"></script>
+	  	<script src="js/saskmain.js"></script>
+	
+	</body>
+
+</html>

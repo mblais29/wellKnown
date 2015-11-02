@@ -1,0 +1,188 @@
+.leaflet-control-geosearch {
+	display:none !important;
+}
+
+#printpagebutton {
+	margin-bottom: 10px;
+}
+
+#wrapper {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(5%);	
+}
+
+#title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main {
+	height: auto;
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 25px;
+	position: relative;
+}
+
+#info {
+	width: 100%;
+	z-index: 3;
+}
+
+#map{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	left: 0;
+}
+
+#reportInfo {
+	font-size: 10px;
+	width: 49%;
+	z-index: 4;
+	display: inline-block;
+}
+
+#reportInfo2{
+	font-size: 10px;
+	width: 49%;
+	z-index: 4;
+	display: inline-block;
+}
+/* Makes the layers on top of the map*/
+
+
+.leaflet-map-pane {
+    z-index: 2 !important;
+}
+
+.leaflet-google-layer {
+    z-index: 1 !important;
+}
+
+/******************************
+ Geojson Text Styles 
+ *****************************/
+.wa {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.drill {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.uwi {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lat {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.lon {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.file {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.oper {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.oper2 {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.area {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.surfLoc {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.bottLoc {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.wellName {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.mode {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.fluid {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.operational {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.status {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.dir {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.conf {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.spud {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+.rigRlsDat {
+	background-color: #E1E1E1;
+	padding: 5px 0 5px 5px;
+	width: 100%;
+}
+
+
